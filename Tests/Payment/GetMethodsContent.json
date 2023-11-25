@@ -1,0 +1,172 @@
+{
+  "GetAccounts": {
+    "items": [
+      {
+        "id": "12da4d94-193d-4dde-b707-d6fd7767fed5",
+        "bankId": "5fb8e0c9-836f-9f0a-035a-3049f1fb38b7",
+        "bankName": "بانک مجازی تدبیرپرداز",
+        "title": "PaymentTestGateway",
+        "bankCode": "099",
+        "shebaNumber": "IR760640000099671046335001",
+        "accountNumber": "132.8867.1046445.1",
+        "isEnable": true,
+        "hasCartable": true,
+        "minimumSignature": 2,
+        "createdDateTime": "2023-11-21T08:43:46.3455186+00:00",
+        "users": []
+      }
+    ]
+  },
+  "PaymentLog": [
+    {
+      "withdrawalOrderId": "0A706FE9-45EB-4CA2-9236-AE56A0073D1F",
+      "status": "WaitingForOwnersApproval",
+      "description": "تغییر وضعیت درخواست از پیش نویس به در انتظار تائید"
+    },
+    {
+      "withdrawalOrderId": "0A706FE9-45EB-4CA2-9236-AE56A0073D1F",
+      "status": "Draft",
+      "description": "ثبت درخواست پرداخت"
+    }
+  ],
+  "TransactionInquiryById": {
+    "id": "7c0aced8-f82a-4f06-9433-bdf70940f00c",
+    "trackingId": "",
+    "destinationIban": "IR5000020000300006054",
+    "nationalCode": "01536661523",
+    "accountNumber": "6219659065435671",
+    "destinationAccountOwner": "Infra",
+    "description": "OtherGovermentServices",
+    "providerMessage": "",
+    "amount": "2500000",
+    "paymentNumber": "6969",
+    "reasonCode": "OtherGovermentServices",
+    "rowNumber": 0,
+    "status": "WaitForExecution",
+    "paymentType": "Unknown",
+    "transferDateTime": null,
+    "withdrawalOrderId": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392"
+  },
+  "InquiryById": {
+    "id": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392",
+    "orderId": "638361620333616260",
+    "providerCode": "TadbirVBank",
+    "bankCode": "099",
+    "bankName": "بانک مجازی تدبیرپرداز",
+    "gatewayTitle": "PaymentTestGateway",
+    "trackingId": "",
+    "name": "Test",
+    "description": "This is a Test Payment Request",
+    "sourceIban": "IR760640000099671046335001",
+    "bankGatewayId": "12da4d94-193d-4dde-b707-d6fd7767fed5",
+    "totalAmount": "10000000",
+    "numberOfTransactions": "4",
+    "status": "WaitingForOwnersApproval",
+    "createdDateTime": "2023-11-21T14:43:53.361776+03:30",
+    "updatedDateTime": "2023-11-21T15:10:26.4718564+03:30",
+    "changeHistory": [
+      {
+        "id": "5e73a77d-7e64-4d49-a920-09ed111c9608",
+        "withdrawalOrderId": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392",
+        "status": "WaitingForOwnersApproval",
+        "createdDateTime": "2023-11-21T15:10:26.4762865+03:30",
+        "description": "تغییر وضعیت درخواست از پیش نویس به در انتظار تائید"
+      },
+      {
+        "id": "8db500c9-ba1a-4520-b4e4-7bb55df85cd6",
+        "withdrawalOrderId": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392",
+        "status": "Draft",
+        "createdDateTime": "2023-11-21T14:43:53.362297+03:30",
+        "description": "ثبت درخواست پرداخت"
+      }
+    ],
+    "transactions": [
+      {
+        "id": "bd6411e1-55ae-4894-aa6e-10eba3314af7",
+        "orderId": "638361621061146328",
+        "trackingId": "",
+        "destinationIban": "IR5000020000300006054",
+        "nationalCode": "01536661523",
+        "accountNumber": "6219659065435671",
+        "destinationAccountOwner": "Infra",
+        "description": "OtherGovermentServices",
+        "providerMessage": "",
+        "amount": "2500000",
+        "paymentNumber": "6969",
+        "reasonCode": "OtherGovermentServices",
+        "rowNumber": 0,
+        "status": "WaitForExecution",
+        "paymentType": "Unknown",
+        "transferDateTime": null,
+        "createdDateTime": "2023-11-21T14:45:06.1146323+03:30",
+        "updatedDateTime": "2023-11-21T14:45:06.1146323+03:30",
+        "withdrawalOrderId": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392"
+      },
+      {
+        "id": "0d87b9ef-f6b6-4875-af9e-1d1764bf2eb0",
+        "orderId": "638361621060878056",
+        "trackingId": "",
+        "destinationIban": "IR5000020000300006053",
+        "nationalCode": "0602658497",
+        "accountNumber": "6037637406523325",
+        "destinationAccountOwner": "Hassan",
+        "description": "Retirement",
+        "providerMessage": "",
+        "amount": "2500000",
+        "paymentNumber": "6985",
+        "reasonCode": "Retirement",
+        "rowNumber": 0,
+        "status": "WaitForExecution",
+        "paymentType": "Unknown",
+        "transferDateTime": null,
+        "createdDateTime": "2023-11-21T14:45:06.0876054+03:30",
+        "updatedDateTime": "2023-11-21T14:45:06.0876373+03:30",
+        "withdrawalOrderId": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392"
+      },
+      {
+        "id": "2c86073c-a825-4ad9-8221-3470d573d900",
+        "orderId": "638361636160067998",
+        "trackingId": "",
+        "destinationIban": "IR5000020000300006052",
+        "nationalCode": "0110165654",
+        "accountNumber": "6037701565436585",
+        "destinationAccountOwner": "Arash",
+        "description": "SalaryDeposit",
+        "providerMessage": "",
+        "amount": "2500000",
+        "paymentNumber": "8569",
+        "reasonCode": "SalaryDeposit",
+        "rowNumber": 0,
+        "status": "WaitForExecution",
+        "paymentType": "Unknown",
+        "transferDateTime": null,
+        "createdDateTime": "2023-11-21T15:10:16.0066019+03:30",
+        "updatedDateTime": "2023-11-21T15:10:16.006635+03:30",
+        "withdrawalOrderId": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392"
+      },
+      {
+        "id": "dd8aa126-8739-44ed-833e-e0a084329ef3",
+        "orderId": "638361621061183175",
+        "trackingId": "",
+        "destinationIban": "IR5000020000300006055",
+        "nationalCode": "0602912184",
+        "accountNumber": "6063659702165543",
+        "destinationAccountOwner": "Amin",
+        "description": "StuffsPurchase",
+        "providerMessage": "",
+        "amount": "2500000",
+        "paymentNumber": "8585",
+        "reasonCode": "StuffsPurchase",
+        "rowNumber": 0,
+        "status": "WaitForExecution",
+        "paymentType": "Unknown",
+        "transferDateTime": null,
+        "createdDateTime": "2023-11-21T14:45:06.1183171+03:30",
+        "updatedDateTime": "2023-11-21T14:45:06.1183171+03:30",
+        "withdrawalOrderId": "78a1fd71-4eb2-491d-9b1f-a477c5ec1392"
+      }
+    ],
+    "approvers": []
+  }
+
+}

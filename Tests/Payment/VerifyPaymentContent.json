@@ -1,0 +1,34 @@
+{
+  "createPayment": {
+    "name": "Test",
+    "description": "This is a Test VerifyPayment Request",
+    "totalAmount": 10000000,
+    "numberOfTransactions": 2,
+    "bankGatewayId": "12DA4D94-193D-4DDE-B707-D6FD7767FED5"
+  },
+  "addTransactions": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "transactions": [
+      {
+        "nationalCode": "0602658497",
+        "destinationIban": "IR5000020000300006063",
+        "accountNumber": "6037637406523325",
+        "destinationAccountOwner": "Hassan",
+        "description": "Retirement",
+        "amount": 2500000,
+        "paymentNumber": "6985",
+        "reasonCode": 7
+      },
+      {
+        "nationalCode": "01536661523",
+        "destinationIban": "IR5000020000300006064",
+        "accountNumber": "6219659065435671",
+        "destinationAccountOwner": "Infra",
+        "description": "OtherGovermentServices",
+        "amount": 2500000,
+        "paymentNumber": "6969",
+        "reasonCode": 13
+      }
+    ]
+  }
+}

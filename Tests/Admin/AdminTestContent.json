@@ -1,0 +1,94 @@
+{
+  "CreateApplication": {
+    "code": "AdminTest-app",
+    "name": "AdminTest",
+    "isEnable": true
+  },
+  "DoneTenantMessage": {
+    "isSuccess": true,
+    "isFailure": false,
+    "message": null,
+    "data": "f36200d7-c57d-62d7-21d6-dd3e6168d8b6"
+  },
+  "GetTestTenant": {
+    "id": "f36200d7-c57d-62d7-21d6-dd3e6168d8b6",
+    "code": "Test",
+    "name": "TenantTest",
+    "isEnable": true,
+    "connectionString": "Server=172.16.30.144,1433;Database=TPG.SI.TadbirPay.TenantTest;User Id=si-user;Password=tadbir@123;TrustServerCertificate=True"
+  },
+  "Bank": {
+    "providerCode": 007,
+    "code": "TestBank",
+    "name": "TadbirTestBank",
+    "isEnable": true,
+    "minimumSatnaAmount": 60000000
+  },
+  "UpdateBank": {
+    "providerCode": "007",
+    "code": "TestBank2",
+    "name": "بانک تستی تدبیرپرداز",
+    "isEnable": true,
+    "minimumSatnaAmount": 500000000
+  },
+  "GetBank": {
+    "id": "5fb8e0c9-836f-9f0a-035a-3049f1fb38b7",
+    "providerCode": "TadbirVBank",
+    "code": "099",
+    "name": "بانک مجازی تدبیرپرداز",
+    "isEnable": true,
+    "minimumSatnaAmount": 500000000
+  },
+  "CreateBankGateway": {
+    "bankId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "title": "TestGateway",
+    "tenantId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "merchant": "string",
+    "terminalId": "string",
+    "authenticationType": 0,
+    "userName": "Gateway_Test",
+    "password": "GT007",
+    "shebaNumber": "IR760640013299671046336225",
+    "accountNumber": "132.9967.1046445.1",
+    "isEnable": true,
+    "type": 1,
+    "hasCartable": true,
+    "minimumSignature": 2
+  },
+  "GetBankGateway": {
+    "id": "a70f56a3-30f6-4b01-9691-d0f8547a1e1b",
+    "title": "TestGateway",
+    "bankId": "5fb8e0c9-836f-9f0a-035a-3049f1fb38b7",
+    "tenantId": "4a37b615-3da2-5c39-fff9-ebed20031da9",
+    "tenantName": "TadbirPardaz",
+    "merchant": "string",
+    "terminalId": "string",
+    "authenticationType": "Basic",
+    "userName": "Gateway_Test",
+    "password": "GT007",
+    "shebaNumber": "IR760640013299671046336225",
+    "accountNumber": "132.9967.1046445.1",
+    "metaData": "",
+    "isEnable": true,
+    "type": "Withdrawal",
+    "hasCartable": true,
+    "minimumSignature": 2
+  },
+  "CartableUser": {
+    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "bankGatewayId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "userType": 1,
+    "isEnable": true,
+    "fullName": "testApprover",
+    "mobile": "09376599800"
+  },
+  "TestCartableUser": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "bankGatewayId": "17a7dea0-e6c3-4821-a52f-2a2c84b23f1d",
+    "userType": "Approver",
+    "isEnable": true,
+    "fullName": "testApprover",
+    "mobile": "09376599800"
+  }
+}

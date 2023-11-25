@@ -1,0 +1,115 @@
+{
+  "createPayment": {
+    "name": "Test",
+    "description": "This is a Test Payment Request",
+    "totalAmount": 10000000,
+    "numberOfTransactions": 4,
+    "bankGatewayId": "12DA4D94-193D-4DDE-B707-D6FD7767FED5"
+  },
+
+  "addTransactions2": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "transactions": [
+      {
+        "nationalCode": "0110165654",
+        "destinationIban": "IR5000020000300006052",
+        "accountNumber": "6037701565436585",
+        "destinationAccountOwner": "Arash",
+        "description": "SalaryDeposit",
+        "amount": 2500000,
+        "paymentNumber": "8569",
+        "reasonCode": 1
+      }
+    ]
+  },
+  "addTransactions1": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "transactions": [
+      {
+        "nationalCode": "0602658497",
+        "destinationIban": "IR5000020000300006053",
+        "accountNumber": "6037637406523325",
+        "destinationAccountOwner": "Hassan",
+        "description": "Retirement",
+        "amount": 2500000,
+        "paymentNumber": "6985",
+        "reasonCode": 7
+      },
+      {
+        "nationalCode": "01536661523",
+        "destinationIban": "IR5000020000300006054",
+        "accountNumber": "6219659065435671",
+        "destinationAccountOwner": "Infra",
+        "description": "OtherGovermentServices",
+        "amount": 2500000,
+        "paymentNumber": "6969",
+        "reasonCode": 13
+      },
+      {
+        "nationalCode": "0602912184",
+        "destinationIban": "IR5000020000300006055",
+        "accountNumber": "6063659702165543",
+        "destinationAccountOwner": "Amin",
+        "description": "StuffsPurchase",
+        "amount": 2500000,
+        "paymentNumber": "8585",
+        "reasonCode": 18
+      }
+    ]
+  },
+  "addTransactionsListOutOfRange": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "transactions": [
+      {
+        "nationalCode": "0110165654",
+        "destinationIban": "IR5000020000300006056",
+        "accountNumber": "6037701565436585",
+        "destinationAccountOwner": "Arash",
+        "description": "SalaryDeposit",
+        "amount": 1250000,
+        "paymentNumber": "8569",
+        "reasonCode": 1
+      },
+      {
+        "nationalCode": "0602912184",
+        "destinationIban": "IR5000020000300006057",
+        "accountNumber": "6063659702165543",
+        "destinationAccountOwner": "Amin",
+        "description": "StuffsPurchase",
+        "amount": 1250000,
+        "paymentNumber": "8585",
+        "reasonCode": 18
+      }
+    ]
+  },
+  "addTransactionsAmountOutOfRange": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "transactions": [
+      {
+        "nationalCode": "0110165654",
+        "destinationIban": "IR5000020000300006058",
+        "accountNumber": "6037701565436585",
+        "destinationAccountOwner": "Arash",
+        "description": "SalaryDeposit",
+        "amount": 3500000,
+        "paymentNumber": "8569",
+        "reasonCode": 1
+      }
+    ]
+  },
+  "addTransactionsDouplicateIban": {
+    "id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "transactions": [
+      {
+        "nationalCode": "0110165654",
+        "destinationIban": "IR5000020000300006053",
+        "accountNumber": "6037701565436585",
+        "destinationAccountOwner": "Arash",
+        "description": "SalaryDeposit",
+        "amount": 2500000,
+        "paymentNumber": "8569",
+        "reasonCode": 1
+      }
+    ]
+  }
+}
