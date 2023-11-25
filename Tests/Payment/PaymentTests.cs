@@ -22,7 +22,7 @@ namespace TPG.SI.TadbirPay.URLTest.Tests.Payment
         public async Task CreatePayment_Should_Return_Created()
         {
             //Arrange
-            // await SetAccesstokenAsync(_httpClient);
+            
 
             Uri route = CreatePaymentBaseRoute("CreatePayment");
             var requestBody = CreateRequestBody<TestRequestPaymentDTO>(PaymentFile,"createPayment");
